@@ -11301,3 +11301,14 @@
 /sbin/iptables -A OUTPUT -o eth0 -d 52.71.139.107 -j REJECT 
 /sbin/iptables -A OUTPUT -o eth0 -d  172.217.163.164 -j REJECT 
 /sbin/iptables -A OUTPUT -o eth0 -d  172.217.163.130 -j REJECT 
+/sbin/iptables -A OUTPUT -o eth0 -d   172.217.163.98 -j REJECT 
+/sbin/iptables -A OUTPUT -o eth0 -d  13.249.252.192 -j REJECT 
+/sbin/iptables -A OUTPUT -o eth0 -d  172.217.160.134 -j REJECT 
+/sbin/iptables -A OUTPUT -o eth0 -d  103.229.10.171 -j REJECT #internal-pixel-aps102-lighttpd-elb-934805582.ap-southeast-1.elb.amazonaws.com
+/sbin/iptables -A OUTPUT -o eth0 -d  103.229.10.172 -j REJECT #internal-pixel-aps102-lighttpd-elb-934805582.ap-southeast-1.elb.amazonaws.com
+/sbin/iptables -A OUTPUT -o eth0 -d  103.229.10.195 -j REJECT 
+/sbin/iptables -A OUTPUT -o eth0 -d   103.229.10.249 -j REJECT 
+/sbin/iptables -A OUTPUT -o eth0 -d  103.229.10.250 -j REJECT 
+/sbin/iptables -A OUTPUT -o eth0 -d  103.229.10.254 -j REJECT 
+/sbin/iptables -A OUTPUT -o eth0 -d  103.229.10.149 -j REJECT 
+/sbin/iptables -A OUTPUT -o eth0 -d  103.229.10.153 -j REJECT
